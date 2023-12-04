@@ -1,16 +1,16 @@
 .root{
     --text-color: #434455
-    --background-color:#FFFFFFFF
+    --background-color: #FFFFFFFF
 }
 .body{
 font-family:"Roboto", sans-serif;
-color:var(--text-color);
+color: #434455;
 background-color: var(--background-color);
 }
 
 .logo{
 font-family: "Raleway", sans-serif;
-color: var(--IRIS, #4D5AE5);
+color: #4D5AE5;
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
@@ -28,12 +28,13 @@ text-decoration: none;
 .list{
     list-style: none;
 }
+
 .list-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:var(--text-color);
+    color: #2e2f42;
 }
 
 .list-paragraph{
@@ -43,19 +44,34 @@ text-decoration: none;
     color:var(--text-color);
 }
 
-.addressclass{
+.address-class{
     font-style: normal;
 }
+
+.adress-list{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.adress-list:hover{
+    color: #404bbf;
+}
+.adres-list:focus{
+    color: #404bbf;
+}
+
 .listitem1{
     font-size:16px;
     line-height: 1.5;
     letter-spacinig: 0.02em;
     color: #434455;
 }
-.listitem1:hover{
+.list-item:hover{
     color:#404bbf;
 }
-.listitem:focus{
+.list-item:focus{
     focus:#404bbf;
 }
 .section-style{
@@ -69,7 +85,7 @@ text-decoration: none;
     color:#ffffff;
 }
 .button-order-service{
-    background-color:#4D5AE5;
+    background-color:  #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -78,12 +94,10 @@ text-decoration: none;
     color: #ffffff;
     cursor:pointer;
 }
-.button-.button-order-service{
-    background-color: #404bbf;
-}
 .button-order-service{
     background-color: #404bbf;
 }
+
 
 .section-three-title{
     font-size: 36px;
@@ -91,11 +105,15 @@ text-decoration: none;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color:var(--text-color);
+    color: #2e2f42;
 }
 
 .section-four{
     background-color: #F4F4FD;
+}
+
+.element-list-four{
+   background-color: #FFFFFFFF; 
 }
 
 
@@ -104,7 +122,7 @@ text-decoration: none;
     background-color:#2e2f42;
 }
 .footer-logo{
-    font-family: "Raleway", sans-serif;
+font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -123,4 +141,23 @@ text-decoration: none;
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
+}
+.button-portfolio{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    text-decoration: none;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+
+.button-portfolio :hover{
+    color: #FFFFFFFF;
+}
+.button-portfolio :focus{
+    color: #FFFFFFFF;
 }
