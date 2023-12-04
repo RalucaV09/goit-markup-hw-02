@@ -5,7 +5,7 @@
 .body{
 font-family:"Roboto", sans-serif;
 color: #434455;
-background-color: var(--background-color);
+background-color: #FFFFFFFF;
 }
 
 .logo{
@@ -135,7 +135,7 @@ font-family: "Raleway", sans-serif;
 .link{
     text-decoration: none;
 }
-.span-logo-footer{
+.span-logo-footer {
     color: #f4f4f4fd;
 }
 .footerp{
