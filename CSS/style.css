@@ -48,25 +48,26 @@ text-decoration: none;
     font-style: normal;
 }
 
-.adress-list{
+.address-list {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
 }
-.adress-list:hover{
+.address-list:hover{
     color: #404bbf;
 }
-.adres-list:focus{
+.addres-list:focus{
     color: #404bbf;
 }
 
-.listitem1{
+.list-item {
+    font-weight: 500;
     font-size:16px;
     line-height: 1.5;
     letter-spacinig: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
 .list-item:hover{
     color:#404bbf;
@@ -142,7 +143,7 @@ font-family: "Raleway", sans-serif;
     color:#F4F4FD;
     letter-spacing: 0.02em;
 }
-.button-portfolio{
+.button-portfolio {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -155,9 +156,26 @@ font-family: "Raleway", sans-serif;
 }
 
 
-.button-portfolio :hover{
+.button-portfolio:hover {
     color: #FFFFFFFF;
+    background-color: #404BBF;
 }
-.button-portfolio :focus{
+.button-portfolio:focus {
     color: #FFFFFFFF;
+    background-color: #404BBF;
+}
+
+.portfolio-title{
+    font-weight: 500;
+    font-size: 20;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--text-color);
+}
+
+.portfolio-paragrap {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455; 
 }
