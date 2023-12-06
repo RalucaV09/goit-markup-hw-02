@@ -1,15 +1,16 @@
 
 .root{
     --text-color: #434455;
-    --background-color: #FFFFFFFF;
+    --background-color:#FFFFFFFF;
     --dark-blue-var:#2e2f42;
     --blue:#4d5ae5;
-    --gray:#434455;
-    --light-color:#F4F4FD;   
+    --light-color:#F4F4F4FD;  
 }
+
+
 .body {
 font-family:"Roboto", sans-serif;
-color: #434455;
+color: var(--text-color);
 background-color:#FFFFFFFF;
 }
 
@@ -75,7 +76,7 @@ text-transform:uppercase;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color:var(--text-color);
    }
 
 .address-list:hover {
@@ -143,6 +144,7 @@ text-transform:uppercase;
 .section-title{
     font-size:56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color:#ffffff;
 }
@@ -168,6 +170,7 @@ text-transform:uppercase;
 .section-three-title{
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
@@ -242,5 +245,5 @@ font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455; 
+    color:var(--text-color); 
 }
