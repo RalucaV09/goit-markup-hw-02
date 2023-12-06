@@ -228,4 +228,5 @@ font-family: "Raleway", sans-serif;
 
 .project-link{
     color:var(--text-color);
+    text-decoration: none;
 }
