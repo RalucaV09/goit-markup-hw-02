@@ -119,7 +119,7 @@ text-transform:uppercase;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455; 
+    color:var(--text-color); 
 }
 
 .paragraph-four{
@@ -184,6 +184,7 @@ text-transform:uppercase;
 
 .section-four{
     background-color: #F4F4FD;
+    color:var(--text-color);
 }
 
 .element-list-four{
