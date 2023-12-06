@@ -12,7 +12,7 @@
 
 .body {
 font-family:"Roboto", sans-serif;
-color: var (--text-color);
+color: #434455;
 background-color:#FFFFFFFF;
 }
 
@@ -24,11 +24,11 @@ background-color:#FFFFFFFF;
 }
 
 .nav-bar-container:hover{
-    color:var (--iris);
+    color:#404bbf;
 }
 
 .nav-bar-container:focus{
-    color:var (--iris);
+    color:#404bbf;
 }
 
 .link{
@@ -58,7 +58,7 @@ text-transform:uppercase;
     font-size:16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--dark-blue-var);
+    color: #2e2f42;
     text-decoration: none;
 }
 .nav-list-item:hover {
@@ -78,7 +78,7 @@ text-transform:uppercase;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--text-color);
+    color:#434455;
    }
 
 .address-list:hover {
@@ -118,14 +118,14 @@ text-transform:uppercase;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--text-color); 
+    color:#434455; 
 }
 
 .paragraph-four{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--text-color);
+    color:#434455;
     
 }
 
@@ -247,5 +247,5 @@ font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--text-color); 
+    color:#434455; 
 }
