@@ -4,29 +4,31 @@
     --background-color:#FFFFFFFF;
     --dark-blue-var:#2e2f42;
     --blue:#4d5ae5;
-    --light-color:#F4F4F4FD;  
+    --light-color:#F4F4F4FD;
+    --iris:#404bbf;  
 }
+
 
 
 .body {
 font-family:"Roboto", sans-serif;
-color: var(--text-color);
+color: var (--text-color);
 background-color:#FFFFFFFF;
 }
 
 .nav-bar-container{
     color:#2e2f42;
     text-decoration: none;
-    display: block;
+    
 
 }
 
 .nav-bar-container:hover{
-    color:#404bbf;
+    color:var (--iris);
 }
 
 .nav-bar-container:focus{
-    color:#404bbf;
+    color:var (--iris);
 }
 
 .link{
