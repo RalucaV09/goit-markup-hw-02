@@ -2,7 +2,10 @@
 .root{
     --text-color: #434455;
     --background-color: #FFFFFFFF;
-    --dark-blue-var:#2e2f42;   
+    --dark-blue-var:#2e2f42;
+    --blue:#4d5ae5;
+    --gray:#434455;
+    --light-color:#F4F4FD;   
 }
 .body {
 font-family:"Roboto", sans-serif;
@@ -140,7 +143,6 @@ text-transform:uppercase;
 .section-title{
     font-size:56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color:#ffffff;
 }
@@ -166,7 +168,6 @@ text-transform:uppercase;
 .section-three-title{
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
