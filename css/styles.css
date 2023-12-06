@@ -1,3 +1,4 @@
+
 .root{
     --text-color: #434455;
     --background-color: #FFFFFFFF;
@@ -9,6 +10,25 @@ color: #434455;
 background-color:#FFFFFFFF;
 }
 
+.nav-bar-container{
+    color:#2e2f42;
+    text-decoration: none;
+    display: block;
+
+}
+
+.nav-bar-container:hover{
+    color:#404bbf;
+}
+
+.nav-bar-container:focus{
+    color:#404bbf;
+}
+
+.link{
+   text-decoration: none;
+}
+
 .logo{
 font-family: "Raleway", sans-serif;
 color:#4d5ae5;
@@ -18,9 +38,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform:uppercase;
 }
-.link{
-    text-decoration: none;
-}
+
 .span-logo-header {
    color:#2e2f42;
 }
@@ -28,6 +46,59 @@ text-transform:uppercase;
     list-style: none;
     text-decoration: none;
 }
+
+.nav-list-item{
+    font-weight: 500;
+    font-size:16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-blue-var);
+    text-decoration: none;
+}
+.nav-list-item:hover {
+    color:#404BBF;
+}
+.nav-list-item:focus{
+    color:#404bbf;
+}
+
+.address-class{
+    font-style: normal;
+    text-decoration: none;
+}
+
+.address-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+   }
+
+.address-list:hover {
+    color: #404bbf;
+}
+.address-list:focus {
+    color: #404bbf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .list-title {
     font-weight: 500;
@@ -52,39 +123,12 @@ text-transform:uppercase;
     
 }
 
-.address-class{
-    font-style: normal;
+
+
+
 }
 
-.address-list {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.address-link {
-    text-decoration: none;
-}
-.address-link:hover {
-    color: #404bbf;
-}
-.address-link:focus {
-    color: #404bbf;
-}
 
-.nav-list-item{
-    font-weight: 500;
-    font-size:16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--dark-blue-var);
-}
-.nav-list-item:hover {
-    color:#404BBF;
-}
-.nav-list-item:focus{
-    color:#404bbf;
 }
 .nav-link:focus{
     color:#404bbf;
