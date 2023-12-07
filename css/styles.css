@@ -1,5 +1,5 @@
 
-.root {
+.root{
     --text-color: #434455;
     --background-color:#FFFFFFFF;
     --dark-blue-var:#2e2f42;
@@ -11,12 +11,12 @@
 
 .body {
 font-family:"Roboto", sans-serif;
-color: var(--text-color);
+color: #434455;
 background-color:#FFFFFFFF;
 }
 
 .nav-bar-container{
-    color:var(--dark-blue-var);
+    color:#2e2f42;
     text-decoration: none;
 }
 
