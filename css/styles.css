@@ -1,5 +1,12 @@
 
-
+.root {
+    --text-color: #434455;
+    --background-color:#FFFFFFFF;
+    --dark-blue-var:#2e2f42;
+    --blue:#4d5ae5;
+    --light-color:#F4F4F4FD;
+    --iris:#404bbf;  
+}
 
 
 .body {
