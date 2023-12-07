@@ -11,23 +11,23 @@
 
 .body {
 font-family:"Roboto", sans-serif;
-color: #434455;
-background-color:#FFFFFFFF;
+color: var(--text-color);
+background-color:var(--background-color);
 }
 
 .nav-bar-container{
-    color:#2e2f42;
+    color:var(--dark-blue-var);
     text-decoration: none;
     
 
 }
 
 .nav-bar-container:hover{
-    color:#404bbf;
+    color:var(--iris);
 }
 
 .nav-bar-container:focus{
-    color:#404bbf;
+    color:var(--iris);
 }
 
 .link{
@@ -36,7 +36,7 @@ background-color:#FFFFFFFF;
 
 .logo{
 font-family: "Raleway", sans-serif;
-color:#4d5ae5;
+color:var(--blue);
 font-size: 18px;
 font-weight: 800;
 line-height: 1.17;
@@ -45,7 +45,7 @@ text-transform:uppercase;
 }
 
 .span-logo-header {
-   color:#2e2f42;
+   color:var(--dark-blue-var);
 }
 .list {
     list-style: none;
@@ -57,14 +57,14 @@ text-transform:uppercase;
     font-size:16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--dark-blue-var);
     text-decoration: none;
 }
 .nav-list-item:hover {
-    color:#404BBF;
+    color:var(--iris);
 }
 .nav-list-item:focus{
-    color:#404bbf;
+    color:var(--iris);
 }
 
 .address-class{
@@ -82,10 +82,10 @@ text-transform:uppercase;
    }
 
 .address-list:hover {
-    color: #404bbf;
+    color: var(--iris);
 }
 .address-list:focus {
-    color: #404bbf;
+    color: var(--iris);
 }
 
 
@@ -94,7 +94,7 @@ text-transform:uppercase;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;  
+    color: var(--dark-blue-var);  
 }
 
 .list-paragraph{
@@ -114,35 +114,35 @@ text-transform:uppercase;
 
 
 .nav-link:focus{
-    color:#404bbf;
+    color:var(--iris);
 }
 
 .section-style{
-    background-color:#2e2f42;
+    background-color:var(--dark-blue-var);
 }
 .section-title{
     font-size:56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color:#ffffff;
+    color:var(--background-color);
 }
 .button-order-service{
-    background-color: #4D5AE5;
+    background-color: var(--blue);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color:var(--background-color);
     cursor:pointer;
 }
 
 .button-order-service:focus{
-    background-color:  #404bbf;
+    background-color:  var(--iris);
 }
 .button-order-service:hover{
-    background-color: #404bbf;
+    background-color: var(--iris);
 }
 
 .section-three-title{
@@ -151,21 +151,21 @@ text-transform:uppercase;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color:#2e2f42;
+    color:var(--dark-blue-var);
 }
 
 .section-four{
-    background-color: #F4F4FD;
+    background-color: var(--light-color);
     color:var(--text-color);
 }
 
 .element-list-four{
-   background-color: #FFFFFFFF; 
+   background-color: var(--background-color); 
 }
 
 
 .footerstyle{
-    background-color: #2e2f42;}
+    background-color: var(--dark-blue-var);}
 
 .footer-logo{
 font-family: "Raleway", sans-serif;
@@ -174,7 +174,7 @@ font-family: "Raleway", sans-serif;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--blue);
   text-decoration: none;
 }
 
@@ -182,11 +182,11 @@ font-family: "Raleway", sans-serif;
     text-decoration: none;
 }
 .span-logo-footer {
-    color:#F4F4FD;
+    color:var(--light-color);
 }
 .footerp {
     line-height: 1.5;
-    color:#F4F4FD;
+    color:var(--light-color);
     letter-spacing: 0.02em;
 }
 .button-portfolio {
@@ -195,20 +195,20 @@ font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4d5ae5;
-    background-color: #F4F4FD;
+    color: var(--blue);
+    background-color: var(--light-color);
     text-decoration: none;
     cursor: pointer;
 }
 
 
 .button-portfolio:hover {
-    color: #FFFFFFFF;
-    background-color: #404BBF;
+    color: var(--background-color);
+    background-color: var(--iris);
 }
 .button-portfolio:focus {
-    color: #FFFFFFFF;
-    background-color: #404BBF;
+    color: var(--background-color);
+    background-color: var(--iris);
 }
 
 .portfolio-header{
@@ -216,7 +216,7 @@ font-family: "Raleway", sans-serif;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:#2e2f42;
+    color:var(--dark-blue-var);
 }
 
 .portfolio-description {
