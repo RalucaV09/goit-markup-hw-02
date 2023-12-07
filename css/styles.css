@@ -21,11 +21,11 @@ background-color:#FFFFFFFF;
 }
 
 .nav-bar-container:hover{
-    color:#404bbf;
+    color:var(--iris);
 }
 
 .nav-bar-container:focus{
-    color:#404bbf;
+    color:var(--iris);
 }
 
 .link{
